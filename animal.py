@@ -3,11 +3,11 @@ import sys
 def cat():
     print("meow")
 def default():
-    print("Hello")
+    print("hello")
 
 
 def dog():
-    print("Woof!")
+    print("woof!")
 def main():
     if sys.argv[1] == "cat":
         cat()
