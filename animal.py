@@ -4,10 +4,10 @@ def cat():
     print("meow")
 def default():
     print("hello")
-
-
 def dog():
     print("woof!")
+
+# test  
 def main():
     if sys.argv[1] == "cat":
         cat()
